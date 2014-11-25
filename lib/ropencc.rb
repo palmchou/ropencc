@@ -28,7 +28,8 @@ class Ropencc
 
     DICTS = {
         :simp_to_trad => 'zhs2zhtw_vp.ini',
-        :trad_to_simp => 'zhtw2zhcn_s.ini'
+        :trad_to_simp => 'zhtw2zhcn_s.ini',
+        :simp_to_trad_v => 'zhs2zhtw_v.ini'
     }
 
     def initialize(config_file)
